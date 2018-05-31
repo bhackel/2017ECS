@@ -1,0 +1,117 @@
+/** {
+	border: 1px red solid;
+}*/
+body {
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+button {
+    background-color: #CEDDEF;
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.7s;
+	width: 100px;
+	z-index: 99999;
+}
+button:hover{
+	background-color: #CAACFF;
+	color: white;
+	transform: scale(1.2, 1.2)
+}
+button:active {
+	background-color: #CAACFF;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#nameField {
+	width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+#body {
+	background-image: url(../_images/lava.gif);
+}
+
+button {
+    background-color: #CEDDEF;
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.7s;
+	width: 200px;
+	z-index: 99999;
+}
+button:hover{
+	background-color: #CAACFF;
+	color: white;
+	transform: scale(1.2, 1.2)
+}
+button:active {
+	background-color: #CAACFF;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#nameField {
+	width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+#content {
+	width: 1280px;
+	height: 720px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border: solid black 1px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#container {
+	width: auto;
+	height: auto;
+}
+
+#shipBar {
+	width: 180px;
+}
+
+#shipImage {
+	width: 180px;
+}
+
+#towerBar {
+	width:256px;
+}
+
+#towerImage {
+	width:256px;
+}

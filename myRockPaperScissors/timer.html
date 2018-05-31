@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<button onclick="var myVar = setInterval(function(){ myTimer() }, 10);">Start time</button>
+<button onclick="stop = true">stop time</button>
+
+<script>
+
+var mil = 0;
+var sec = 0;
+var min = 0;
+var hrs = 0;
+var stop = false;
+	
+function myTimer() {
+	if (stop === false) {
+		mil++
+		if (mil >  99) {
+			mil = 0
+			sec++
+			if (sec > 59) {
+				sec = 0
+				min++
+				if (min > 59) {
+					min = 0
+					hrs++
+				}
+			}
+		}
+		document.getElementById("demo").innerHTML = hrs+":"+min+":"+sec+":"+mil;
+	}
+	else {
+		clearInterval(myVar);
+	}
+}
+</script>
+
+</body>
+</html>

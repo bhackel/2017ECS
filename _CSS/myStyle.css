@@ -1,0 +1,159 @@
+/* css doc */
+
+/* something I did needed this but i forgot what */
+* {
+    box-sizing: border-box;
+}
+
+/* background color of the webpage */
+body {
+	background-color: #333D70;
+}
+
+/* container for everything */
+.container {
+	margin: auto;
+	padding: 25px;
+	width: auto;
+	height: auto;
+}
+
+/* banner link formatting */
+.banner {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.banner a {
+	width: 100%;
+	height: 8%;
+	color: white;
+	text-decoration: none;
+	padding: 14px 16px;
+	margin: auto;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	display: block;
+}
+.bannermain {
+	font-size: 40px;
+}
+.bannersub {
+	color: white;
+	font-size: 25px;
+}
+.banner:hover {
+	background-color:#455398;
+}
+
+/* navigation bar formatting */
+.navbar ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.navbar li {
+	width: 25%;
+	float: left;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 15px;
+}
+.navbar li a:hover {
+    background-color: #474580;
+}
+
+/* general content formatting - the width:inherit; allows the webpage to scale depending on the screen size */
+.content {
+	width: inherit;
+	height: 90%; 
+	background-color: #4F7AA4;
+	margin: auto;
+	padding: 25px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-align: center;
+}
+
+/* dropdown formatting */
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+/* button formatting */
+button {
+	background-color: #333333;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	border: 1px solid #2E3347;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+button:hover {
+	transition-duration: 0.5s;
+	background-color: #495171;
+}
+
+/* formatting for the tables that contain all the content */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    width:50%;
+    text-align: left;
+    padding: 8px;
+}
+
+/* footer styling */
+.footer {
+	text-align: center;
+	color: #223649;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 20px;
+	background-color: #39457F;
+	height: 10%;
+	width: inherit;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+	border: 1px solid #333D70;
+}
+.footer li {
+	width: 33.33%;
+	float: left;
+}
+.footer li a {
+    display: block;
+    color: #223649;
+    text-align: center;
+    padding: 4px 8px;
+    text-decoration: none;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 14px;
+}
+.footer li a:hover {
+    background-color: #335470;
+}

@@ -1,0 +1,53 @@
+/* CSS Document */
+
+body {
+	background-color: #6DC2FF;
+}
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.health { /*necessary dimensions for health display */
+	height:36px;
+	width:inherit;
+	left:50px;
+	top:50px;
+}
+
+.button { /* cool button styling */
+    background-color: #CEDDEF;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.7s;
+	width: 200px;
+}
+.button:hover{
+	background-color: #CAACFF;
+	color: white;
+	transform: scale(1.2, 1.2)
+}
+.button:active {
+	background-color: #CAACFF;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#log { /* general styling */
+	font-size:25px;
+	font-family: Arial;
+}
+
+#content {
+	font-size:50px;
+	font-family: Arial;
+	color:#1F1F1F;
+}

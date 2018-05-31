@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<!-- how it works -->
+<head>
+	<!-- references to css and js docs -->
+	<title>Neural Networks</title>
+	<link rel="icon" href="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/gud.jpg" type="image/x-icon">
+	<script src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_JS/myjavascript.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_CSS/mystyle.css">
+</head>
+<body>
+	<div class="container">
+		<div class="banner"><!-- banner and link to main page -->
+			<a href="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/mysite/index.html">
+				<!--<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/gud.jpg" width="1024px" height="100px"/> -->
+				<div class="bannermain">Artificial Neural Networks</div>
+				<div class="bannersub">How Does It Work?</div>
+			</a>
+		</div>
+		<div class="navbar"><!-- navigation bar -->
+			<ul>
+				<li><a href="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/mysite/howitworks/index.html">How It Works</a></li>
+				<li><a href="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/mysite/history/index.html">History</a></li>
+				<li><a href="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/mysite/future/index.html">Future</a></li>
+				<li><a href="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/mysite/connections/index.html">Connections</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<table>
+				<tr>
+					<td>
+						<h2>
+							Types of Networks
+						</h2>
+						<select id="networklist"><!-- dropdown menu with types of neural networks -->
+							<option>The Basics</option>
+							<option>Convolutional Network</option>
+							<option>Recurrent Network</option>
+							<option>Neurological Evolution</option>
+						</select>
+						<button type="button" onclick="choosetype()">Show More</button><!-- button for changing content -->
+						<p>
+							There are countless types of neural networks, but the most common ones are 
+							convolutional, recurrent, and neuroevolution. Choose an item from the dropdown above to learn more about it.
+						</p>
+					</td>
+					<td>
+						<h2 id="ANNtype">
+							Select an item from the dropdown
+						</h2>
+						<p id="ANNinfo">
+							to  e&nbsp;x&nbsp;&nbsp;p&nbsp;&nbsp;&nbsp;a&nbsp;&nbsp;&nbsp;&nbsp;n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d.
+						</p>
+					</td>
+				</tr>
+			</table>
+			<div id="ANNimage"><!-- image which gets changed by button -->
+				<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/gud.jpg">
+			</div>
+		</div>
+		<div class="footer"><!-- links to sources -->
+			<b>Sources</b>
+			<ul>
+				<li><a href="https://www.youtube.com/watch?v=qv6UVOQ0F44">
+					Sethbling. "MarI/O - Machine Learning for Video Games" Youtube <br> 13 Jun 2015
+				</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/Generative_adversarial_network">
+					Anonymous. "Generative adversarial network." Wikipedia, <br> Wikimedia, 13 Oct 2017
+				</a></li>
+				<li><a href="http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/">
+					DENNY BRITZ, "Recurrent Neural Networks Tutorial, Part 1 Introduction to RNNs." WILDML, <br> 17 Sept 2015
+				</a></li>
+			</ul>
+			<ul>
+				<li><a href="https://www.youtube.com/watch?v=p_7GWRup-nQ">
+					Cary Huang, "Teaching my computer to give me friends." Youtube <br> 3 May 2017
+				</a></li>
+				<li><a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/">
+					Andrej Karpathy, "The Unreasonable Effectiveness of Recurrent Neural Networks." GitHub, <br> 21 May 2015 
+				</a></li>
+				<li><a href="https://en.wikipedia.org/wiki/Neuroevolution">
+					Anonymous, "Neuroevolution." Wikipedia, <br> Wikimedia, 6 Sept 2017
+				</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

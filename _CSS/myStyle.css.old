@@ -1,0 +1,56 @@
+/* css doc */
+.container {
+	margin: 0 auto;
+	width: 1024px;
+	height: 776px;
+	background-color: #CCFFFF;
+}
+.banner {
+	width: 1024px;
+	height: 100px;
+	background-color: #FFFFCC;
+}
+.navigation {
+	width: 1024px;
+	height: 50px;
+	background-color:forestgreen;
+}
+
+.content {
+	width: 1024px;
+	height: 626px;
+	background-color: palegoldenrod;
+	margin: auto;
+}
+
+.lists {
+	margin: auto;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.video {
+	border-style: solid;
+}

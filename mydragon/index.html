@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dragon</title>
+	<link rel="icon" href="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/gud.jpg" type="image/x-icon">
+	<script src="../_JS/dragon.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="../_CSS/dragon.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<div id="content"><!-- isnt it interesting how i didnt use canvas? like probably much harder to do it this way but like i didnt know man -->
+			<div id="choose">
+				<input id="nameField" placeholder = "type your name here">
+				<button onClick="start()">Submit</button>
+				<p>Choose your class</p>
+				<select id="selectClass">
+					<option value="wizard">Wizard</option>
+					<option value="warrior">Warrior</option>
+					<option value="thief">Thief</option>
+				</select>
+				<p>Move with the arrow keys and click the buttons</p>
+				<p>The rest you will learn by playing (aka im too lazy to explain)</p>
+				<p>doesnt support firefox apparently</p>
+			</div>
+			<div id="playerStats"></div>
+				<img src="../_images/player.png" id="player">
+			<div id="interact"></div>
+		</div>	
+	</div>
+</body>
+</html>

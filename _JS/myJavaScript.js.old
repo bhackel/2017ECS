@@ -1,0 +1,29 @@
+var firstNum = prompt("give me the number");
+var secondNum = prompt("give me the another number");
+
+var add = function(x, y) {
+	x = parseInt(x);
+	y = parseInt(y);
+	return (x + y);
+};
+
+function combine(x,y) {
+	return x + y;
+}
+console.log(add(firstNum, secondNum));
+console.log(combine(firstNum, secondNum));
+
+function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
+}
+
+function openWin() {
+	for (i = 0; i < 100; i++) {
+		var myWindow=window.open("", "myWindow", "width=640, height=480");
+		myWindow.document.write("<p>BUY FREE IPAD</p>");
+	}
+}
