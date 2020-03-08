@@ -5,9 +5,9 @@
 
 //alert("syntax");
 //set up three global variables that have string values which will create img elements in my html source code
-var theRock = '<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/cobblestone.png">';
-var thePaper = '<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/paper.png">';
-var theScissors = '<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/scissor.jpg">';
+var theRock = '<img src="../../_images/cobblestone.png">';
+var thePaper = '<img src="../../_images/paper.png">';
+var theScissors = '<img src="../../_images/scissor.jpg">';
 var result = '';
 var gamemode = '';
 var score = 0;

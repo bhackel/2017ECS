@@ -15,21 +15,21 @@ function choosetype() {
 	if (i.selectedIndex === 0) {
 		document.getElementById('ANNtype').innerHTML = "The Basics Of Neural Networks";
 		document.getElementById('ANNinfo').innerHTML = basic;
-		document.getElementById('ANNimage').innerHTML = '<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/simplenetwork.jpg">';
+		document.getElementById('ANNimage').innerHTML = '<img src="../../_images/simplenetwork.jpg">';
 	}
 	if (i.selectedIndex === 1) {
 		document.getElementById('ANNtype').innerHTML = "Convolutional Neural Networks";
 		document.getElementById('ANNinfo').innerHTML = cnn;
-		document.getElementById('ANNimage').innerHTML = '<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/cnn.jpeg">';
+		document.getElementById('ANNimage').innerHTML = '<img src="../../_images/cnn.jpeg">';
 	}
 	if (i.selectedIndex === 2) {
 		document.getElementById('ANNtype').innerHTML = "Recurrent Neural Networks";
 		document.getElementById('ANNinfo').innerHTML = rnn;
-		document.getElementById('ANNimage').innerHTML = '<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/rnnunrolled.png">';
+		document.getElementById('ANNimage').innerHTML = '<img src="../../_images/rnnunrolled.png">';
 	}
 	if (i.selectedIndex === 3) {
 		document.getElementById('ANNtype').innerHTML = "Neuroevolutional Network";
 		document.getElementById('ANNinfo').innerHTML = nen;
-		document.getElementById('ANNimage').innerHTML = '<img src="http://cs.bcp.org/cozort/ecs/cozfall17/hackel_bryce/_images/marLo.jpg">';
+		document.getElementById('ANNimage').innerHTML = '<img src="../../_images/marLO.jpg">';
 	}
 }
