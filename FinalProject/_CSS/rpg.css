@@ -41,7 +41,7 @@ button:active {
     border-radius: 4px;
 }
 #body {
-	background-image: url(../_images/lava.gif);
+	background-image: url(../../_images/lava.gif);
 }
 
 button {
